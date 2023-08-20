@@ -1,0 +1,55 @@
+.exerscise_top{
+    marginb: 50px;
+    text-align: center;
+}
+.exerscise_top h2{
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+.exerscise_top p{
+    line-height: 28px;
+    font-size: 1rem;
+    color: var(--heading-color);
+}
+
+.exerscise_wrapper{
+    background: var(--bg-gradient);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+}
+.exerscise_item{
+    display: flex;
+    align-items: center;
+    column-gap:  1.2rem;
+    width: 33%;
+}
+.exerscise_icon{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    background: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    align-items: center;
+   
+}
+.exerscise_icon img{
+    width: 100%;
+}
+.exerscise_content{
+    width: 80%;
+}
+.exerscise_content h4{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+.exerscise_content p{
+    font-size: 1rem;
+    color: white;
+}

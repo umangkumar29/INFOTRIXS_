@@ -1,0 +1,35 @@
+.footer{
+    padding: 50px 0;
+    background:#eeeaff
+
+}
+.footor_wrapper{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+.footor_box{
+    width: 30%;
+}
+
+.footor_box p{
+    color: var(--heading-color);
+    line-height: 28px;
+    margin-top: 20px;
+    align-items: center;
+}
+.footor_title{
+    font-size: 1.4rem;
+    color: var(--heading-color);
+    margin-bottom: 20px;
+    margin-top: 28px;
+    margin-left: 40px;
+}
+.footor_links li {
+    line-height: 30px;
+    cursor: pointer;
+}
+.footor_links li:hover{
+    color: var(--primary-color);
+}
